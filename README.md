@@ -5,3 +5,5 @@ which is available on the GitHub repository maintained by Niels Rogge at [here](
 
 The implemented solution to tackle this challenge uses a machine learning classification approach. 
 Each token is classified into one of the following classes: {'O': 0, 'B-drug': 1, 'B-drug_n': 2, 'B-group': 3, 'I-group': 4, 'I-drug_n': 5, 'B-brand': 6, 'I-brand': 7, 'I-drug': 8}
+
+The corpus used for the task is the DDI corpus [Herrero-Zazo et al, 2013].
